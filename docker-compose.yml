@@ -1,0 +1,31 @@
+services:
+  safe-app:
+    container_name: safe-app
+    build:
+      context: ./vulnerable-app
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    read_only: true
+    tmpfs:
+      - /tmp:noexec
+    volumes:
+      - ./logs:/app/logs
+    env_file:
+      - .env
+    environment:
+      - LOG_FILE=server.safe.log
+
+  unsafe-app:
+    container_name: unsafe-app
+    build:
+      context: ./vulnerable-app
+      dockerfile: UNSAFE_Dockerfile
+    ports:
+      - "3001:3000" # Use a different host port to avoid conflict with the secure app
+    volumes:
+      - ./logs:/app/logs
+    env_file:
+      - .env
+    environment:
+      - LOG_FILE=server.unsafe.log

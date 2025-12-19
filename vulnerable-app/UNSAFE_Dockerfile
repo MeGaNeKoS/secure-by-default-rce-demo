@@ -1,0 +1,27 @@
+# UNSAFE Dockerfile for a standard Next.js deployment
+# This file is intentionally left without security best practices
+# to demonstrate the success of exploits in a typical environment.
+
+# ---- Build Stage ----
+FROM node:20-alpine AS build
+WORKDIR /app
+COPY package.json package-lock.json* ./
+RUN npm ci
+COPY . .
+# We need to ensure instrumentation hooks are included if they exist
+COPY instrumentation.ts ./
+RUN npm run build
+
+# ---- Runner Stage (Standard, NOT Distroless) ----
+FROM node:20-alpine
+WORKDIR /app
+
+# Copy the standalone output
+COPY --from=build /app/.next/standalone ./
+COPY --from=build /app/public ./public
+COPY --from=build /app/.next/static ./.next/static
+
+EXPOSE 3000
+
+# Use a shell to start the server, which is common but less secure
+CMD ["sh", "-c", "node server.js"]

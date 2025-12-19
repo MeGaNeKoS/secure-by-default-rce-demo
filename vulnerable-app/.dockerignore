@@ -1,0 +1,19 @@
+# Docker
+.dockerignore
+Dockerfile
+
+# Git
+.git
+.gitignore
+
+# Node
+node_modules
+npm-debug.log
+
+# Next.js
+.next
+
+# Other
+exploited.txt
+server.log
+server.err.log
